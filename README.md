@@ -1,7 +1,7 @@
 > [!CAUTION]
 > I am not responsible for any of your actions! This module is created for testing purposes.
 
-🧅 Bypass regional restrictions via Tor in Magisk.
+[b]🧅 Bypass regional restrictions via Tor in Magisk.[/b]
 
 Usage:
 1. Download Termux

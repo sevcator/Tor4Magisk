@@ -1,0 +1,14 @@
+# Original https://github.com/Verity-Freedom/Tor-Portable/tree/main
+# Modded by sevcator.t.me @ sevcator.github.io
+DataDirectory /data/tor
+AutomapHostsOnResolve 1
+DisableNetwork 0
+ReachableAddresses *:*
+UseBridges 1
+SafeLogging 1
+Log notice stdout
+ExitNodes {au},{us},{pr},{as},{gu},{mp},{vi},{gb},{gg},{je},{im},{ie},{fr},{gp},{mq},{re},{nz},{ca},{de},{nl},{it},{es},{be},{ch},{pt},{at},{se},{dk},{fi},{no},{mx}
+ClientTransportPlugin meek_lite,obfs2,obfs3,obfs4,scramblesuit,webtunnel exec /data/data/com.termux/files/home/pluggable_transports/lyrebird
+ClientTransportPlugin snowflake exec /data/data/com.termux/files/home/pluggable_transports/snowflake-client
+ClientTransportPlugin conjure exec /data/data/com.termux/files/home/pluggable_transports/conjure-client -registerURL https://registration.refraction.network/api
+# INSERT THERE YOUR BRIDGES

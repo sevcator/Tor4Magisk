@@ -6,7 +6,8 @@
 Usage:
 1. Download Termux
 2. Enter: ```pkg update -y && pkg upgrade -y && pkg install tor -y```
-3. Download [latest version](https://github.com/sevcator/Tor4Magisk/releases/latest) of module
-4. Install in Magisk
-5. Reboot device
-6. Done!
+3. Config /data/data/com.termux/files/usr/etc/tor/torrc
+4. Download [latest version](https://github.com/sevcator/Tor4Magisk/releases/latest) of module
+5. Install in Magisk
+6. Reboot device
+7. Done!
